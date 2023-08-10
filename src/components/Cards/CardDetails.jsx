@@ -54,13 +54,13 @@ const CardDetails = () => {
               <span className='fw-bold'>Gender : </span>{gender}
             </div>
             <div className="">
-              <span className='fw-bold'>Origin : </span>{origin.name}
+              <span className='fw-bold'>Origin : </span>{origin?.name}
             </div>
             <div className="">
               <span className='fw-bold'>Species : </span>{species}
             </div>
             <div className="">
-              <span className='fw-bold'>Location : </span>{location.name}
+              <span className='fw-bold'>Location : </span>{location?.name}
             </div>
 
           </div>
