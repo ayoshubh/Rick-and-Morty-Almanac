@@ -6,10 +6,16 @@
 
 .img{
     border-radius: 10px 10px 0 0;
+    min-height: 280px;
+    position: relative;
+    top: -15px;
+    max-width: 100%;
 }
 
 .cards{
     border: 2px solid #0b5ed7;
     border-radius: 10px;
     margin-bottom: 15px;
+    height: 405px;
+    overflow: hidden;
 }

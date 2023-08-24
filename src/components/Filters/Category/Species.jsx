@@ -14,7 +14,7 @@ const Species = ({setPageNumber, setSpecies}) => {
       </button>
     </h2>
     <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-      <div className="accordion-body d-flex flex-wrap">
+      <div className="accordion-body d-flex flex-wrap flex-column">
       {species.map((items, index)=>[
       <FilterBtn 
       key={index}

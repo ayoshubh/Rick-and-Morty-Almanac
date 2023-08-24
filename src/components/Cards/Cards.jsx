@@ -21,9 +21,9 @@ function Cards({ results, page }) {
         className="col-lg-4 col-md-6 col-12 position-relative text-dark"
         style={{textDecoration: "none"}}>
           <div className={`${styles.cards} d-flex flex-column justify-content-center`}>
-            <img src={image} alt="" className={`${styles.img} img-fluid`}/>
+            <img src={image} alt="" className={`${styles.img} `}/>
             <div className="content">
-              <div className="fs-4 fs-bold mb-4">{name}</div>
+              <div className="fs-4 fs-bold mb-2">{name}</div>
             </div>
             <div className="">
               <div className="fs-6">Last Location</div>
